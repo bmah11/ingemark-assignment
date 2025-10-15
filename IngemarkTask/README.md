@@ -38,15 +38,9 @@ Docker and Docker Compose.
    docker compose up --build
    ```
 
-This command will:
-
-* build the Docker images
-* start the database
-* run the web service
-
 ### Running the tests
 
-Tesr can be run in another terminal when the application is running.
+Test can be run in another terminal when the application is running.
 
 Run the following command:
 
@@ -71,11 +65,9 @@ All endpoints are protected.
 2. In the *APIKeyHeader* dialog, enter *secret-key* as the value.
 3. Click *Authorize.*
 
-To use the interactive docs you must first authorize the session.
-
 ### Endpoints
 
-The following endpoints are available:
+Available endpoints:
 
 - POST /messages/
 
