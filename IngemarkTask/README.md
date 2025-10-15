@@ -21,8 +21,8 @@ The service is built with Python using the FastAPI framework and connects to a P
 - ORM: SQLAlchemy
 - Data Validation: Pydantic
 - Testing: pytest & httpx
-- Containerization**:** Docker & Docker Compose
-- ASGI Server**:** Uvicorn
+- Containerization: Docker & Docker Compose
+- ASGI Server: Uvicorn
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ You should see an output indicating that all 3 tests passed.
 Interact with the API through:
 
 - Swagger UI: http://localhost:8000/docs
-- ReDoc**:** http://localhost:8000/redoc
+- ReDoc: http://localhost:8000/redoc
 
 ### Authentication
 
